@@ -1,0 +1,47 @@
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+#page {
+
+}
+
+#background {
+  margin-top: 32px;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90vw;
+  height: 90vh;
+  box-sizing: border-box;
+  border: 1px solid black
+}
+
+#logo {
+  display: flex;
+  align-items: center;
+  margin-right: 15px;
+}
+
+#logo a{
+  text-decoration: none;
+}
+
+#name {
+  margin-left: 15px;
+  color: black;
+}
+
+#name h2{
+  font-size: 1.05em;
+}
+
+#content {
+  margin: 32px 50px 32px 32px;
+    position: absolute;
+  bottom: 20px;   /* distância da borda inferior */
+  right: 20px;    /* distância da borda direita */
+  text-align: right;
+}
